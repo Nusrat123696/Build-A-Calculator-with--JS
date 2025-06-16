@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+.calculetorBody {
+  position: absolute;
+  top: 8%;
+  left: 40%;
+  width: 400px;
+  height: 600px;
+  background-color: #1f1f1f;
+  border: 3px solid #f1f1f1;
+}
+input[type="text"] {
+  width: 393px;
+  height: 100px;
+  text-align: right;
+  font-size: 50px;
+  outline: none !important;
+  border: none !important;
+  margin-bottom: 10%;
+}
+td {
+  text-align: center;
+  color: #fff1;
+}
+input[type="button"] {
+  width: 90px;
+  height: 80px;
+  color: #fff;
+  background-color: black;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.25 ease-in-out;
+}
+input[type="button"]:hover {
+  background-color: #19d;
+  outline: none;
+}
+input[value="AC"] {
+  color: red;
+}
+input[value="="] {
+  color: red;
+}
+table {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-collapse: collapse;
+}
